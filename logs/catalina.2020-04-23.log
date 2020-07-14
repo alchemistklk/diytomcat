@@ -1,0 +1,528 @@
+04 23, 2020 16:54:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\a
+04 23, 2020 16:54:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\a has finished in 99 ms
+04 23, 2020 16:54:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\j2ee
+04 23, 2020 16:54:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\j2ee has finished in 6 ms
+04 23, 2020 16:54:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\ROOT
+04 23, 2020 16:54:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\ROOT has finished in 2 ms
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/diytomcat/b
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/diytomcat/b has finished in 1 ms
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 13 ms
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		x86
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\software\jdk8\jre
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_65-b17
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+04 23, 2020 16:54:23 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 5 ms
+04 23, 2020 16:54:31 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:41)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+04 23, 2020 16:59:40 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:41)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:39)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+04 23, 2020 17:05:24 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@11ac98e 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 17:05:24 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 17:05:24 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:05:24 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 3 ms
+04 23, 2020 17:05:24 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 17:05:25 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@149bea5 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 17:05:25 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 17:05:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:05:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 3 ms
+04 23, 2020 17:05:25 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 17:05:27 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@16f788b 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 17:05:27 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 17:05:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:05:27 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 8 ms
+04 23, 2020 17:05:27 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 17:05:32 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@a1398b 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 17:05:32 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 17:05:32 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:05:32 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 4 ms
+04 23, 2020 17:05:32 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@9b6f6b 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 4 ms
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@c28ede 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 3 ms
+04 23, 2020 17:05:34 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 17:05:49 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@b14298 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 17:05:49 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 17:05:49 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:05:49 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 4 ms
+04 23, 2020 17:05:49 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 17:05:50 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@1c6ddd 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 17:05:50 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 17:05:50 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:05:50 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 3 ms
+04 23, 2020 17:05:50 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\a
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\a has finished in 121 ms
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\j2ee
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\j2ee has finished in 4 ms
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\ROOT
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\ROOT has finished in 2 ms
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/diytomcat/b
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/diytomcat/b has finished in 1 ms
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 14 ms
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		x86
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\software\jdk8\jre
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_65-b17
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 0 ms
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+04 23, 2020 17:17:22 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 4 ms
+04 23, 2020 18:01:38 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@e2b49d 检测到了Web应用下的重要文件变化 SetSessionServlet.class 
+04 23, 2020 18:01:38 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:01:38 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:01:38 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 8 ms
+04 23, 2020 18:01:38 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:01:43 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@26ec34 检测到了Web应用下的重要文件变化 SetSessionServlet.class 
+04 23, 2020 18:01:43 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:01:43 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:01:43 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 5 ms
+04 23, 2020 18:01:43 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:01:44 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@5cb294 检测到了Web应用下的重要文件变化 SetSessionServlet.class 
+04 23, 2020 18:01:44 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:01:44 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:01:44 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 6 ms
+04 23, 2020 18:01:44 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:01:49 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@f9208c 检测到了Web应用下的重要文件变化 SetSessionServlet.class 
+04 23, 2020 18:01:49 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:01:49 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:01:49 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 4 ms
+04 23, 2020 18:01:49 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:02:16 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@1ed7cb 检测到了Web应用下的重要文件变化 SetSessionServlet.class 
+04 23, 2020 18:02:16 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:02:16 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:02:16 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 5 ms
+04 23, 2020 18:02:16 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:03:03 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@a5144e 检测到了Web应用下的重要文件变化 GetSessionServlet.class 
+04 23, 2020 18:03:03 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:03:03 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:03:03 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 5 ms
+04 23, 2020 18:03:03 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:03:10 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@14f5fe2 检测到了Web应用下的重要文件变化 GetSessionServlet.class 
+04 23, 2020 18:03:10 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:03:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:03:10 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 5 ms
+04 23, 2020 18:03:10 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:03:11 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@b1feea 检测到了Web应用下的重要文件变化 GetSessionServlet.class 
+04 23, 2020 18:03:11 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:03:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:03:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 4 ms
+04 23, 2020 18:03:11 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:03:13 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@111d835 检测到了Web应用下的重要文件变化 GetSessionServlet.class 
+04 23, 2020 18:03:13 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:03:13 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:03:13 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 5 ms
+04 23, 2020 18:03:13 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:03:14 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@1a3ece3 检测到了Web应用下的重要文件变化 GetSessionServlet.class 
+04 23, 2020 18:03:14 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:03:14 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:03:14 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 3 ms
+04 23, 2020 18:03:14 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:03:30 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@1ff17a9 检测到了Web应用下的重要文件变化 web.xml 
+04 23, 2020 18:03:30 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:03:30 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:03:30 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 12 ms
+04 23, 2020 18:03:30 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:03:31 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@19dd147 检测到了Web应用下的重要文件变化 web.xml 
+04 23, 2020 18:03:31 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:03:32 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:03:32 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 10 ms
+04 23, 2020 18:03:32 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:03:49 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@14466eb 检测到了Web应用下的重要文件变化 web.xml 
+04 23, 2020 18:03:49 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:03:49 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:03:49 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 17 ms
+04 23, 2020 18:03:49 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\a
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\a has finished in 139 ms
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\j2ee
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\j2ee has finished in 8 ms
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\ROOT
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\ROOT has finished in 1 ms
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/diytomcat/b
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/diytomcat/b has finished in 0 ms
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 13 ms
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		x86
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\software\jdk8\jre
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_65-b17
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+04 23, 2020 18:04:19 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 5 ms
+04 23, 2020 18:04:46 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@e2b49d 检测到了Web应用下的重要文件变化 web.xml 
+04 23, 2020 18:04:46 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:04:46 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:04:46 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 15 ms
+04 23, 2020 18:04:46 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:04:48 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: cn.hutool.core.exceptions.UtilException: InvocationTargetException: null
+java.lang.RuntimeException: cn.hutool.core.exceptions.UtilException: InvocationTargetException: null
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:42)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:37)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: cn.hutool.core.exceptions.UtilException: InvocationTargetException: null
+	at cn.hutool.core.util.ReflectUtil.invoke(ReflectUtil.java:750)
+	at cn.hutool.core.util.ReflectUtil.invoke(ReflectUtil.java:770)
+	at cn.how2j.diytomcat.servlets.InvokerServlet.service(InvokerServlet.java:38)
+	... 5 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cn.hutool.core.util.ReflectUtil.invoke(ReflectUtil.java:748)
+	... 7 more
+Caused by: java.lang.NullPointerException
+	at cn.how2j.javaweb.SetSessionServlet.doGet(SetSessionServlet.java:17)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	... 12 more
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\a
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\a has finished in 94 ms
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\j2ee
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\j2ee has finished in 8 ms
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\ROOT
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\ROOT has finished in 2 ms
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/diytomcat/b
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/diytomcat/b has finished in 1 ms
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 14 ms
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		x86
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\software\jdk8\jre
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_65-b17
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+04 23, 2020 18:10:11 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 5 ms
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@95f1e5 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 5 ms
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@14800a5 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 3 ms
+04 23, 2020 18:20:38 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:22:24 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@a30a89 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 18:22:24 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:22:24 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:22:24 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 5 ms
+04 23, 2020 18:22:24 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:22:25 下午 cn.how2j.diytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : cn.how2j.diytomcat.watcher.ContextFileChangeWatcher@1bd5009 检测到了Web应用下的重要文件变化 SetCookieServlet.class 
+04 23, 2020 18:22:25 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has started
+04 23, 2020 18:22:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+04 23, 2020 18:22:25 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 4 ms
+04 23, 2020 18:22:25 下午 cn.how2j.diytomcat.catalina.Host reload
+INFO : Reloading Context with name [/javaweb] has completed
+04 23, 2020 18:25:27 下午 cn.how2j.diytomcat.catalina.HttpProcessor error
+ERROR: this is a deliberately created exception
+java.lang.RuntimeException: this is a deliberately created exception
+	at cn.how2j.diytomcat.servlets.DefaultServlet.service(DefaultServlet.java:41)
+	at cn.how2j.diytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:43)
+	at cn.how2j.diytomcat.catalina.Connector$1.run(Connector.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

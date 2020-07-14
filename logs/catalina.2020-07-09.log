@@ -1,0 +1,198 @@
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\a
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\a has finished in 311 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\j2ee
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\j2ee has finished in 19 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb0
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb0 has finished in 101 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb1
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb1 has finished in 3 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb2
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb2 has finished in 43 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\ROOT
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\ROOT has finished in 4 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/diytomcat/b
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/diytomcat/b has finished in 5 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 48 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\JDK\jdk1.8\jre
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_251-b08
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 3 ms
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+07 09, 2020 09:50:17 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 12 ms
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\a
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\a has finished in 180 ms
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\j2ee
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\j2ee has finished in 8 ms
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb0
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb0 has finished in 37 ms
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb1
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb1 has finished in 2 ms
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb2
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb2 has finished in 26 ms
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\ROOT
+07 09, 2020 10:39:14 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\ROOT has finished in 3 ms
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/diytomcat/b
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/diytomcat/b has finished in 2 ms
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 17 ms
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\JDK\jdk1.8\jre
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_251-b08
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 0 ms
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+07 09, 2020 10:39:15 上午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 10 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\a
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\a has finished in 217 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\j2ee
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\j2ee has finished in 10 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb0
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb0 has finished in 41 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb1
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb1 has finished in 3 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\javaweb2
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\javaweb2 has finished in 29 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory D:\project\diytomcat\webapps\ROOT
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory D:\project\diytomcat\webapps\ROOT has finished in 3 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/diytomcat/b
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/diytomcat/b has finished in 3 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deploying web application directory d:/project/javaweb/web
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Context <init>
+INFO : Deployment of web application directory d:/project/javaweb/web has finished in 16 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server version:		How2J DiyTomcat/1.0.1
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Server number:		1.0.1
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Name	:		Windows 10
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : OS Version:		10.0
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Architecture:		amd64
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : Java Home:		D:\JDK\jdk1.8\jre
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Version:		1.8.0_251-b08
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18080]
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Service init
+INFO : Initialization processed in 1 ms
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18080]
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+07 09, 2020 12:40:22 下午 cn.how2j.diytomcat.catalina.Server start
+INFO : Server startup in 7 ms
