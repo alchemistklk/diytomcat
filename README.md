@@ -9,14 +9,7 @@
    
       Request对象主要用于获取请求的相关信息uri,requestString
       
-        1. ##### 构造方法
-        2. ##### 解析requestString        
-        3. ##### 解析uri
-        4. ##### 解析Context
-        5. ##### 解析Method
-        6. ##### 解析Paramaters
-        7. ##### 解析Headers
-        8. ##### 解析Cookies
+         详情请点击
    - #### Response
    
         Response用于封装返回给浏览器的数据
