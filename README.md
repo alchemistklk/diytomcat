@@ -48,5 +48,17 @@
             scanContextsInServerXML();
         }
         ```
-      
+   - ### Engine
+        代表Servlet引擎，每个Engine下面有多个Host
+        
+        通过解析XML文件获得Engine中默认虚拟主机和所有主机
+        
+        ```
+        public Engine(Service service) {
+            this.service = service;
+            this.defaultHost = ServerXMLUtil.getEngineDefaultHost();
+            this.hosts = ServerXMLUtil.getHosts(this);
+            checkDefault();
+        }
+        ```
    
