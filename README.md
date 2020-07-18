@@ -5,4 +5,6 @@
     **构建Tomcat内置对象，处理多种文件格式(包括二进制文件)，处理Servlet请求，处理Jsp请求，客户端跳转，过滤器，文件部署以及监听器**的功能。
 
 ### Tomcat内置对象
-   - 手工样
+   - Request
+   Request对象主要用于获取请求的相关信息uri,requestString
+   
