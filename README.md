@@ -63,6 +63,7 @@
         ```
    - ### Connector
         代表连接的不同连接点，一个Service一般对应多个Connector端口
+        
         构造方法中要加入Service，启动服务器套接字，之后使用多线程来处理客户端的连接请求
         ```
         ServerSocket s = new ServerSocket(port);
