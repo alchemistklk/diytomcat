@@ -7,15 +7,18 @@
 涉及到的主要功能包括:
     **构建Tomcat内置对象，处理多种文件格式(包括二进制文件)，处理Servlet请求，处理Jsp请求，客户端跳转，过滤器，文件部署以及监听器**的功能。
 
-### Tomcat内置对象
-   - #### Request
+## Tomcat内置对象
+   - ### Request
       Request对象主要用于获取请求的相关信息uri,requestString   
-   - #### Response
+   - ### Response
         Response用于封装返回给浏览器的数据
-   - #### Context
-        每个Context实例代表了一个应用,用于多应用的加载
+   - ### Context
+     
+      每个Context实例代表了一个应用,用于多应用的加载
       1. 属性：path(访问路径),docBase(文件夹所在的绝对路径)
+      
       2. 加载时机：在服务器启动的时候把webapps目录下的文件夹加载成Context对象了
+      
       3. 解析时机：在构造Request的时候就把Context解析出来
         
         ```
@@ -28,7 +31,7 @@
             主要是使用XML文件来进行配置，使用Jsoup进行解析，遍历所有的Context标签的将里面的内容封装到Context
         2. 扫描webapp目录下面的文件夹然后进行context装载
 
-   - #### Host    
+   - ### Host    
      代表虚拟主机，每个Host下面有多个Context
         因为Host的下一层是Context所以将scanContextsOnWebAppsFolder();与scanContextsInServerXML();
         放在Host的构造方法中。用于解析Webapp目录下下面的文件夹导入ContextMap
