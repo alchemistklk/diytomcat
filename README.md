@@ -9,16 +9,9 @@
 
 ### Tomcat内置对象
    - #### Request
-      Request对象主要用于获取请求的相关信息uri,requestString
-      
-         详情请点击
+      Request对象主要用于获取请求的相关信息uri,requestString   
    - #### Response
-   
         Response用于封装返回给浏览器的数据
-
-        1. handle200():将数据返回给浏览器
-            响应头+响应体
-        2. 
    - #### Context
         用于多应用的配置，每个Context实例代表了一个应用
          
