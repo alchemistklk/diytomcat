@@ -79,3 +79,23 @@
             ThreadPoolUtil.run(r);
         }
         ```
+   - ### Service
+        代表Tomcat提供的服务，一个Service对应一个Engine，一个Service对应多个连接点
+        ```
+        public Service(Server server){
+            this.server = server;
+            this.name = ServerXMLUtil.getServiceName();
+            this.engine = new Engine(this);
+            this.connectors = ServerXMLUtil.getConnectors(this);
+        }
+        ```
+   - ### Server
+        打印java虚拟机相关的信息，然后初始化调用Service中的start方法
+        ```
+        public void start(){
+            TimeInterval timeInterval = DateUtil.timer();
+            logJVM();
+            init();
+            LogFactory.get().info("Server startup in {} ms",timeInterval.intervalMs());
+        }
+        ```
