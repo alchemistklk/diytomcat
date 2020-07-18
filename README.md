@@ -13,6 +13,19 @@
    - #### Response
         Response用于封装返回给浏览器的数据
    - #### Context
-        用于多应用的配置，每个Context实例代表了一个应用
+        每个Context实例代表了一个应用
+        1. 属性：path(访问路径),docBase(文件夹所在的绝对路径)
+        2. 加载时机：在服务器启动的时候把webapps目录下的文件夹加载成Context对象了
+        3. 解析时机：在构造Request的时候就把Context解析出来
+        
+        `
+            String fileName = StrUtil.removePrefix(uri, "/");
+            File file = FileUtil.file(context.getDocBase(), fileName);
+        `
+        
+        优势：将uri中访问的资源与实际服务器资源对应起来，代码如上
+        1. 通过配置的方式来访问Context
+            主要是使用XML文件来进行配置，使用Jsoup进行解析，遍历所有的Context标签的将里面的内容封装到Context
+        2. 扫描webapp目录下面的文件夹然后进行context装载
          
    
