@@ -14,9 +14,9 @@
         Response用于封装返回给浏览器的数据
    - #### Context
         每个Context实例代表了一个应用,用于多应用的加载
-        1. 属性：path(访问路径),docBase(文件夹所在的绝对路径)
-        2. 加载时机：在服务器启动的时候把webapps目录下的文件夹加载成Context对象了
-        3. 解析时机：在构造Request的时候就把Context解析出来
+      1. 属性：path(访问路径),docBase(文件夹所在的绝对路径)
+      2. 加载时机：在服务器启动的时候把webapps目录下的文件夹加载成Context对象了
+      3. 解析时机：在构造Request的时候就把Context解析出来
         
         ```
             String fileName = StrUtil.removePrefix(uri, "/");
