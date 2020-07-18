@@ -33,6 +33,7 @@
 
    - ### Host    
         代表虚拟主机，每个Host下面有多个Context因为Host的下一层是Context所以将scanContextsOnWebAppsFolder();scanContextsInServerXML();
+        
         放在Host的构造方法中。用于解析Webapp目录下下面的文件夹导入ContextMap
         并解析配置文件中的内容并装入Context中
         ```
