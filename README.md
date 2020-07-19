@@ -179,7 +179,7 @@
         其中销毁的时候先关闭类加载器，再关闭监听器，最后销毁Servlet
         - Servlet自启动
         在Context创建需要自启动的servlet类名，之后再初始化的时候进行自启动
-           - Cookie
+        - Cookie
         Cookie是在服务端创建的，保存在浏览器端，用于数据交互。
         服务器端如何接受Cookie：获取headerMap中的cookie，解析Cookie存入List中。
         - Session
