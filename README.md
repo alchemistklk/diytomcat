@@ -183,9 +183,11 @@
         Cookie是在服务端创建的，保存在浏览器端，用于数据交互。
         服务器端如何接受Cookie：获取headerMap中的cookie，解析Cookie存入List中。
         - Session
-        检测session是否有效，使用一个线程默认30s检测一次，如果失效就从sessionMap中去除。
+        检测session是否有效，使用一个线程默认30s检测一次，如果失效就从sessionMap中去除
+        
         SessionManager获取Session的逻辑
-        先判断jsessionid是否存在，不存在新建一个session。
-        如果jsessionid无效，那么新建一个sessionid
-        否则使用现有的session并修改lastAccessedTime，创建响应的cookie
+        
+        1. 先判断jsessionid是否存在，不存在新建一个session
+        2. 如果jsessionid无效，那么新建一个sessionid
+        3. 否则使用现有的session并修改lastAccessedTime，创建响应的cookie
 
