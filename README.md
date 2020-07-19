@@ -99,3 +99,83 @@
             LogFactory.get().info("Server startup in {} ms",timeInterval.intervalMs());
         }
         ```
+### 多种文件格式
+   - 非二进制文件
+   使用WebXMLUtil类进行解析，使用Map结构将所有的类型进行保存，之后根据类型名获取相应的类型。为了防止多次初始化，使用了Synchronized进行同步
+   - 二进制文件
+   Response使用字节数组存放二进制文件，增加set与get方法。在Server中修改读取文件的方式，直接读取定位到的文件字节数组，之后封装到Response中
+    
+### 处理Servlet
+
+   - #### 配置Servelt功能
+       1. 在Context类中存储访问路径与Servlet的对应关系
+       
+        ```
+        //url对应的Servlet类名
+        private Map<String, String> url_servletClassName;
+        //url对应的Servlet名称
+        private Map<String, String> url_servletName;
+        //Servlet名称对应的类名
+        private Map<String, String> servletName_className;
+        //Servlet类名对应的名称
+        private Map<String, String> className_servletName;
+        ```
+        2. 在InvokerSetvlet中通过反射来调用Service方法
+
+   - #### 类加载器
+        - Tomcat类加载体系
+            顶层是公共类加载器CommonClassLoader负责的是%tomcat_home%/lib目录的类和jar
+            下面是WebappClassLoader用于加载某个web应用
+            之后是JspClassLoader用于加载jsp转化为.java被编译的类
+        - 公共类加载器
+            继承了URLClassLoader扫描lib包下面的类和jar，将路径转化为file:xxx
+        - web应用类加载器
+            每个web应用都包含私有的WebClassLoader。
+            主要是扫描Context对应的docBase下面的classes和lib。其中classes目录作为URL加入，结尾要加"/"。
+
+            ```
+            ClassLoader commonClassLoader = Thread.currentThread().getContextClassLoader();
+            this.webappClassLoader = new WebappClassLoader(docBase, commonClassLoader);
+            ```
+            上面代码在构造方法中进行初始化，先获得Bootstrap里的commonClassLoader之后再初始化webappClassLoader 
+    - #### InvokerServlet处理Servlet
+        - 设计为单例设计模式
+        - 处理Servlet的流程
+        ```
+        //得到uri
+        String uri = request.getUri();
+        //得到请求中的context
+        Context context = request.getContext();
+        //得到Servlet对应的ServletClass
+        String servletClassName = context.getServletClassName(uri);
+        Class servletClass = context.getWebappClassLoader().loadClass(servletClassName);
+        Object servletObject = context.getServlet(servletClass);
+        ReflectUtil.invoke(servletObject, "service", request, response);
+
+        ```
+   - #### DefaultServlet处理静态资源
+        - 采用单例设计模式
+   - #### 热加载
+        - 概念
+        当web项目下面的Classes目录下面的资源发生变化，或者是lib里面的jar发生变化，就会重新加载当前的Context
+        - 流程
+        1. 先创建Context
+        2. 创建专属监听器，用于监听docBase下的文件变化
+        3. 持续监听
+        4. 判断发生变化的文件的后缀名
+            1. 不是class，jar或者是xml继续监听
+            2. 否则，关闭监听，重载Context，然后刷新Host里面的contextMap
+        5. 重载意为新建一个Context    
+   - #### Servlet对象
+        - ServletContext
+        创建了一个attributesMap用于存放属性，其中内置一个context。ApplicationContext 的很多方法，其实就是调用的是context。
+        - ServletConfig
+        是在Servlet初始化的时候，传递进去的参数对象
+        - Servlet单例
+        实现单例的方法：在Context中初始化一个servletPool，每次访问servlet都会根据servletClass对象都去池子中取。其中InvokerServlet
+        获取servletObject对象都是从池子中获取
+        - Servlet生命周期
+        实例化、初始化、提供服务、销毁、被回收
+        其中销毁的时候先关闭类加载器，再关闭监听器，最后销毁Servlet
+        - Servlet自启动
+        在Context创建需要自启动的servlet类名，之后再初始化的时候进行自启动
