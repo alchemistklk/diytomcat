@@ -108,7 +108,7 @@
 ### 处理Servlet
 
    - #### 配置Servelt功能
-       1. 在Context类中存储访问路径与Servlet的对应关系
+       - 在Context类中存储访问路径与Servlet的对应关系
        
         ```
         //url对应的Servlet类名
@@ -120,7 +120,7 @@
         //Servlet类名对应的名称
         private Map<String, String> className_servletName;
         ```
-        2. 在InvokerSetvlet中通过反射来调用Service方法
+        - 在InvokerSetvlet中通过反射来调用Service方法
 
    - #### 类加载器
         - Tomcat类加载体系
