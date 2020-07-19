@@ -9,7 +9,7 @@
 
 ## Tomcat内置对象
    - ### Request
-      Request对象主要用于获取请求的相关信息uri,requestString   
+      Request对象主要用于获取请求的相关信息uri、requestString、头信息、请求参数   
    - ### Response
         Response用于封装返回给浏览器的数据
    - ### Context
