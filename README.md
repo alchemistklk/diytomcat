@@ -179,3 +179,13 @@
         其中销毁的时候先关闭类加载器，再关闭监听器，最后销毁Servlet
         - Servlet自启动
         在Context创建需要自启动的servlet类名，之后再初始化的时候进行自启动
+           - Cookie
+        Cookie是在服务端创建的，保存在浏览器端，用于数据交互。
+        服务器端如何接受Cookie：获取headerMap中的cookie，解析Cookie存入List中。
+        - Session
+        检测session是否有效，使用一个线程默认30s检测一次，如果失效就从sessionMap中去除。
+        SessionManager获取Session的逻辑
+        先判断jsessionid是否存在，不存在新建一个session。
+        如果jsessionid无效，那么新建一个sessionid
+        否则使用现有的session并修改lastAccessedTime，创建响应的cookie
+
