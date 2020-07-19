@@ -159,13 +159,13 @@
         - 概念
         当web项目下面的Classes目录下面的资源发生变化，或者是lib里面的jar发生变化，就会重新加载当前的Context
         - 流程
-        1. 先创建Context
-        2. 创建专属监听器，用于监听docBase下的文件变化
-        3. 持续监听
-        4. 判断发生变化的文件的后缀名
-            1. 不是class，jar或者是xml继续监听
-            2. 否则，关闭监听，重载Context，然后刷新Host里面的contextMap
-        5. 重载意为新建一个Context    
+            - 先创建Context
+            - 创建专属监听器，用于监听docBase下的文件变化
+            - 持续监听
+            - 判断发生变化的文件的后缀名           
+                 1. 不是class，jar或者是xml继续监听
+                 2. 否则，关闭监听，重载Context，然后刷新Host里面的contextMap
+            - 重载意为新建一个Context    
    - #### Servlet对象
         - ServletContext
         创建了一个attributesMap用于存放属性，其中内置一个context。ApplicationContext 的很多方法，其实就是调用的是context。
