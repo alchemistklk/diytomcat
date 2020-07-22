@@ -220,9 +220,6 @@
     private Map<String, String> filterName_className;
     private Map<String, String> className_filterName;
     private Map<String, Map<String, String>> filter_className_init_params;
-    public void parseFilterMapping(Document d){
-
-    }
     ```
 ### war部署
  - 静态war部署
