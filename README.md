@@ -190,4 +190,45 @@
         1. 先判断jsessionid是否存在，不存在新建一个session
         2. 如果jsessionid无效，那么新建一个sessionid
         3. 否则使用现有的session并修改lastAccessedTime，创建响应的cookie
+         - #### JSP对象
+        - jsp转译
+        先将jsp转译成.java文件，再将.java文件编译成.class文件
+        转译的jsp文件继承了HttpJspBase又继承了JspPage类最后继承了HttpServlet类，本质上还是一个Servlet
+        - 编译时机
+        先判断jsp是否存在 否 返回404
+        是 是否有对应的class文件 否 生成class
+        是 jsp文件是否晚于class文件 否 直接使用
+        是 重新生成class
+        - JspClassLoader
+        1. 一个jsp文件对应一个JspClassLoader
+        2. 如果jsp文件修改需要换一个新的JspClassLoader
+        3. JspClassLoader基于jsp文件转译并编译出来的class文件，进行类加载
+    - #### 跳转功能
+    - 客户端跳转
+    302临时跳转
+    - 服务端跳转
+    请求转发功能即服务器内部修了request的uri，然后再执行一次HttpProcessor中的execute方法。
+
+### 过滤器
+ - 责任链模式
+  使多个对象都有机会处理请求，从而避免请求的发送者和处理者之间的耦合关系，将这和对象连成一条链并沿着
+  这条链传递请求，直到有一个对象来处理它
+ - 在Context中新建一系列跟过滤器加载和初始化的参数
+    ```
+    private Map<String, List<String>> url_filterClassName;
+    private Map<String, List<String>> url_FilterNames;
+    private Map<String, String> filterName_className;
+    private Map<String, String> className_filterName;
+    private Map<String, Map<String, String>> filter_className_init_params;
+    public void parseFilterMapping(Document d){
+
+    }
+    ```
+### war部署
+ - 静态war部署
+ 将war文件解压为目录并把文件夹加载为Context
+ - 动态war部署
+ 用监听器监听webapps目录，当新创建war文件就调用静态部署中的方法
+### 监听器模式
+ - Context变动进行监听
 
